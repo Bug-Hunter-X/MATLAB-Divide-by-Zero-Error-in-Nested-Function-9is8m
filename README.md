@@ -1,0 +1,2 @@
+# MATLAB Divide by Zero Bug
+This repository demonstrates a common MATLAB error: a divide-by-zero error that occurs within a nested function. The bug is present in `bug.m`, which attempts to call `someCalculation`. The `someCalculation` function under certain conditions tries to perform a division by zero resulting in the error. The solution is provided in `bugSolution.m`.  The solution involves robust error handling to prevent the program from crashing. 
